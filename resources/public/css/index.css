@@ -1,0 +1,120 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    background-color: white;
+    width: 600px;
+    height: 300pct;
+    margin: 10px auto;
+    font-family: arial;
+    font-size: 36px;
+}
+
+
+#header {
+    padding: 15px 0px;
+    background-color: blue;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 42px;
+}
+
+#input, #results, #buttons {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin: 5px 5px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    -ms-border-radius:10px;
+    border-radius:10px;
+    align: center;
+}
+
+#results {
+    font-weight: bold;
+}
+
+label {
+    width: 200px;
+    color: darkblue;
+    font-weight: bolder;
+}
+input {
+    align: right;
+    width: 125px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    display: block;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+}
+
+.control-button 
+{
+	margin-left: auto;
+	margin-right: auto;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+@media (max-width: 800px)
+{
+body {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 10px auto;
+    font-family: arial;
+    font-size: 28px;
+}
+
+input {
+    align: right;
+    width: 125px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    display: block;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+}
+
+.control-button 
+{
+	margin-left: auto;
+	margin-right: auto;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#header {
+    padding: 15px 0px;
+    background-color: blue;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 28px;
+}
+p
+{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;	
+}
+#results {
+    font-weight: bold;
+}
+	
+}

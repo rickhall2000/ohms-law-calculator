@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Ohm's Law Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+
+    <div>
+      <div id="header">
+        Ohm's Law Calculator
+      </div>
+      <div id="input">
+        <label>Voltage: </label>
+           <input type="number" id="voltage" />
+         <label>Current: </label>
+           <input type="number" id="current" />
+         <label >Resistance: </label>
+           <input type="number" id="resistance" />
+      </div>
+      <div id="buttons">
+        <input type="button" id="calculate" value="Calculate" class="control-button" />
+        <input type="button" id="reset" value="Reset" class="control-button" />
+      </div>
+      <div id="results">
+        <p>Result: <span id="result"> </span></p>
+      </div>
+    </div>
+    <script src="js/ohmslaw.js" ></script>
+  </body>
+</html>
